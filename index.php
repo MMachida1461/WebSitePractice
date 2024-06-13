@@ -15,5 +15,6 @@
   </head>
   <body>
       <p class="text"><strong>練習</strong></p>
+      <p>vscodeからの変更（2回目）</p>
   </body>
 </html>
