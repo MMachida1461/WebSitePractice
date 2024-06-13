@@ -1,0 +1,20 @@
+body{
+    width: 100%;
+    min-width: 1080px;
+    font-size: 16px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu_brock{
+    display: flex;
+}
+
+#instagram img{
+    width: 20px;
+}

@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>サイト模写</title>
+    <!-- CSSの書き順。上から下になるので、sytle.cssを適用したいから下に記述 -->
+    <link rel="stylesheet" href="./css/ress.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <header>
@@ -26,7 +29,7 @@
         <li class="menu_list">
           <a href="">Contact</a>
         </li>
-        <li class="menu_list" id="">
+        <li class="menu_list" id="instagram">
           <a href="https://www.instagram.com/"><img src="./img/icon-instagram.png" alt="instagram"></a>
         </li>
       </ul>
