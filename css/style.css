@@ -1,18 +1,39 @@
 body{
     width: 100%;
     min-width: 1080px;
-    font-size: 16px;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    font-family: Hiragino Kaku Gothic ProN;
+}
+
+li{
+    list-style: none;
 }
 
 header{
-    width: 100%;
+    width: 60%;
+    margin-right: auto;
+    margin-left : auto;
+    padding: 110px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
+.header_contents{
+    margin-left: 30px;
+}
 
 .menu_brock{
+    width: 500px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu_list a{
+    text-decoration: none;
+    color: #000000;
 }
 
 #instagram img{
