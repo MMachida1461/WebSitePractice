@@ -135,5 +135,13 @@ h2{
 
 #button{
     color: #FFFFFF;
-    background-color: #1a1919;
+    background-color: #24292e;
+}
+
+#footer {
+    background-color: #24292e;
+    color: #fff;
+    font-size: 0.5rem;
+    padding: 10px 20px;
+    text-align: center;
 }

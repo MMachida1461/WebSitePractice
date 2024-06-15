@@ -67,7 +67,7 @@
     </div>
 
     <div class="news">
-    <h2>Works</h2>
+    <h2>News</h2>
     <!-- PHPに配列作成し、その配列から取る形にする -->
      <div class="news_list">
       <ul>
@@ -114,6 +114,8 @@
       </form>
     </div>
   </main>
-    
+  <footer id="footer">
+      <p>© 2024 My Work</p>
+  </footer>
 </body>
 </html>
