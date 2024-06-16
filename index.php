@@ -88,8 +88,8 @@
     </div>
     <div class="contact">
       <h2>Contact</h2>
-      <form action="">
-        <div class="contact_box" class="hoge1">
+      <form method="post" action="data.php">
+        <div class="contact_box">
           <p class="contact_title">NAME</p>
           <p class="input_field"><input type="text" name="name" id="name"></p></div>
         <div class="contact_box">
@@ -98,7 +98,7 @@
         <div class="contact_box">
           <p class="contact_title">MESSAGE</p>
           <p class="input_field">
-            <textarea name="inquiry" id="inquiry" id="inquiry"></textarea>
+            <textarea name="inquiry" id="inquiry"></textarea>
           </p>
         </div>
         <div class="contact_box_button">
