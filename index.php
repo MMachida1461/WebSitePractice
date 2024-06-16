@@ -1,3 +1,6 @@
+<?php
+  require('data.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,30 +72,20 @@
     <div class="news">
     <h2>News</h2>
     <!-- PHPに配列作成し、その配列から取る形にする -->
-     <div class="news_list">
+    <div class="news_list">
+    <?php for($i = 0; $i < count($news); $i++): ?>
       <ul>
-        <li class="news_list_days">2020.XX.XX</li>
-        <li>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</li>
+        <li class="news_list_days">
+          <?php echo $news[$i][0]; ?>
+        </li>
+        <li>
+        <?php echo $news[$i][1]; ?>
+        </li>
       </ul>
-      <ul>
-        <li class="news_list_days">2020.XX.XX</li>
-        <li>Ｘ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</li>
-      </ul>
-      <ul>
-        <li class="news_list_days">2019.XX.XX</li>
-        <li>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</li>        
-      </ul>
-      <ul>
-        <li class="news_list_days">2019.XX.XX</li>
-        <li>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</li>
-      </ul>
-      <ul>
-        <li class="news_list_days">2019.XX.XX</li>
-        <li>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</li>
-      </ul>
-     </div>
+    <?php endfor ?>
     </div>
 
+    </div>
     <div class="contact">
       <h2>Contact</h2>
       <form action="">
